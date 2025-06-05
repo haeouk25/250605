@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {
-            if (i == 7) {
-                break;
-            }
+        String color = "빨강";
 
-            System.out.println(i);
+        if (color == "빨강") {
+            System.out.println("빨강");
+        } else if (color == "파랑") {
+            System.out.println("파랑");
+        } else {
+            System.out.println("보라");
         }
     }
 }
