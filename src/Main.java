@@ -1,13 +1,14 @@
 public class Main {
-    public static void main(String[] args) {
-        String color = "빨강";
+    public static void printStudent(String name, int age) {
+        System.out.println("이름: " + name);
+        System.out.println("나이: " + age);
+        System.out.println("------------");
+    }
 
-        if (color == "빨강") {
-            System.out.println("빨강");
-        } else if (color == "파랑") {
-            System.out.println("파랑");
-        } else {
-            System.out.println("보라");
-        }
+    public static void main(String[] args) {
+        System.out.println("=== 학생 정보 출력 ===");
+        Main.printStudent("Alice", 20);
+        printStudent("Bob", 22);
+        printStudent("Charlie", 25);
     }
 }
